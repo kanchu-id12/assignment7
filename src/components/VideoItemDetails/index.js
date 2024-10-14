@@ -4,7 +4,7 @@ import Header from '../Header'
 
 class VideoItemDetails extends Component {
   state = {
-    videoObj: [],
+    videoObj: {},
   }
 
   componentDidMount() {
