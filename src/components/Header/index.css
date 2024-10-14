@@ -1,0 +1,31 @@
+.three-bar {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .three-bar {
+    display: none;
+  }
+}
+
+.profile {
+  display: none;
+  @media (min-width: 768px) {
+    display: flex;
+    height: 30px;
+    width: 30px;
+  }
+}
+.logout {
+  display: flex;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #424242;
+}
